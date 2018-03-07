@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
 
-import { HelloComponent } from './components/hello.component';
-import { AppComponent } from './app.component';
+import { HelloComponent } from './components/hello.component'
+import { AppComponent } from './app.component'
 
 
 @NgModule({
@@ -17,5 +17,4 @@ import { AppComponent } from './app.component';
     bootstrap: [AppComponent]
 })
 export class AppModule {
-
 }
