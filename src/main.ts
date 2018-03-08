@@ -6,10 +6,10 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 
 declare const module: any;
-if (module.hot) {
-    // 可以执行热更新
-    module.hot.accept()
-}
+// if (module.hot) {
+//     // 可以执行热更新
+//     module.hot.accept()
+// }
 
 enableProdMode();
 platformBrowserDynamic().bootstrapModule(AppModule).catch(err => console.log(err));
