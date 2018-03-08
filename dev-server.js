@@ -5,6 +5,7 @@ const config = require('./webpack.config.js');
 const options = {
   contentBase: './dist',
   hot: true,
+  inline: true,
   host: 'localhost'
 };
 

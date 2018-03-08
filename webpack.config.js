@@ -86,8 +86,9 @@ module.exports = {
   ],
   // 优化代码压缩的配置项
   optimization: {},
-  devServer: {
-    contentBase: 'dist',
-    hot: true
-  }
+  // 使用dev-server.js开启服务，这里的配置就需要注释掉
+  // devServer: {
+  //   contentBase: 'dist',
+  //   hot: true
+  // }
 }

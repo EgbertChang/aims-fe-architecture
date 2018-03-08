@@ -5,7 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // 业务模块
 import { AppModule } from './app/app.module';
 
-declare var module: any;
+declare const module: any;
 if (module.hot) {
     // 可以执行热更新
     module.hot.accept()
