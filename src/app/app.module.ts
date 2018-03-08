@@ -1,17 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
 
-import { HelloComponent } from './components/hello.component'
+import { AppRoutingModule } from './app-routing.module'
+
 import { AppComponent } from './app.component'
+import { DailyDetailsComponent } from './testbed/components/daily-details/daily-details.component'
 
 
 @NgModule({
     declarations: [
-        HelloComponent,
         AppComponent,
+        DailyDetailsComponent
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
+        AppRoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
